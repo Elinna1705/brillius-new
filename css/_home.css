@@ -1,0 +1,48 @@
+.home {
+  background: #2f87cb;
+}
+
+.home .slides {
+  padding-top: 45px;
+  padding-left: 60px;
+}
+
+.home .slide:not(:first-child) {
+  width: 0;
+}
+
+.home .slide img {
+  display: block;
+  max-width: 100%;
+}
+
+.home .slick-arrow {
+  position: absolute;
+  border: 0;
+  z-index: 999;
+  text-indent: -9999px;
+  width: 47px;
+  height: 47px;
+}
+
+.home .slick-prev {
+  background: url(../images/arrow-left.png);
+  left: 0;
+  bottom: inherit;
+  right: inherit;
+  top: 3%;
+  -webkit-transform: translate(0, -30px);
+      -ms-transform: translate(0, -30px);
+          transform: translate(0, -30px);
+}
+
+.home .slick-next {
+  background: url(../images/arrow-right.png);
+  right: 0;
+  bottom: inherit;
+  left: inherit;
+  top: 3%;
+  -webkit-transform: translate(0, -30px);
+      -ms-transform: translate(0, -30px);
+          transform: translate(0, -30px);
+}

@@ -1,0 +1,2 @@
+[0919/030643:ERROR:scoped_process_suspend.cc(38)] NtResumeProcess: Попытка доступа к процессу, выполняющему процедуру завершения.  (0xc000010a)
+[0921/161725:ERROR:file_io.cc(30)] read: expected 4, observed 0
